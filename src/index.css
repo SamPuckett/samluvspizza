@@ -1,20 +1,37 @@
 h1 {
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 23px;
+  font-size: 5rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   line-height: 23px;
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+  letter-spacing: 0.4px;
+}
+h2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 23px;
+  margin-top: 4.5rem;
+  margin-bottom: 5rem;
 }
 h3 {
-  color: #fff;
+  color: #5ef9d6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 1rem;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: lighter;
   line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
 }
 p {
   color: #fff;
@@ -24,6 +41,7 @@ p {
   font-variant: normal;
   font-weight: 400;
   line-height: 23px;
+  margin-top: 5rem;
 }
 body {
   color: #fff;
@@ -31,9 +49,10 @@ body {
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 23px;
   background-color: #08192f;
+  /* background-image: url("1280.png"); */
 }
 blockquote {
   color: #fff;
@@ -52,4 +71,24 @@ pre {
   font-variant: normal;
   font-weight: 700;
   line-height: 23px;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: inherit;
+}
+
+/* mouse over link */
+a:hover {
+  color: inherit;
+}
+
+/* selected link */
+a:active {
+  color: inherit;
 }

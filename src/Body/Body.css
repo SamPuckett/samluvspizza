@@ -1,0 +1,11 @@
+.body {
+  /* border: 1px solid red; */
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-top: 3.3rem;
+}
+
+.body-text {
+  /* border: 1px solid green; */
+  width: 30vw;
+}
