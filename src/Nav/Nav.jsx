@@ -7,14 +7,12 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <div className='nav'>
-      <span className='logo'>
-        <Logo />
-      </span>
+      <Logo />
       <span className='right-side-nav'>
-        <NavItem navItem='01. About' />
-        <NavItem navItem='02. Experience' />
-        <NavItem navItem='03. Work' />
-        <NavItem navItem='04. Contact' />
+        <NavItem navItemNumber='01.' navItemName='About' />
+        <NavItem navItemNumber='02.' navItemName='Experience' />
+        <NavItem navItemNumber='03.' navItemName='Work' />
+        <NavItem navItemNumber='04.' navItemName='Contact' />
         <ResumeButton />
       </span>
     </div>

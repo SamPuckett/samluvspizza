@@ -1,0 +1,18 @@
+.nav-item {
+  margin: 20px;
+  padding: 5px;
+}
+
+.nav-item:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.nav-item-number {
+  color: #5ef9d6;
+  margin-right: 5px;
+}
+
+.nav-item-name {
+  /* color: white; */
+}
