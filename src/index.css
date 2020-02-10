@@ -76,6 +76,7 @@ pre {
 /* unvisited link */
 a:link {
   text-decoration: none;
+  color: inherit;
 }
 
 /* visited link */
