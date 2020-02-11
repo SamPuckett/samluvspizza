@@ -11,9 +11,9 @@
 
 @media only screen and (max-device-width: 750px) {
   .nav-items {
-    visibility: hidden;
+    display: none;
   }
   .resume-button {
-    visibility: hidden;
+    display: none;
   }
 }
