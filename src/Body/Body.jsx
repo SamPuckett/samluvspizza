@@ -12,7 +12,7 @@ const Body = () => {
         <p className='body-text'>
           I'm a React Developer with a passion for front end web developement.
           I'm currently a senior at California State University, Stanislaus
-          pursuiting a B.S. in Computer Science (May 2020 Expexted Graduation).
+          pursuing a B.S. in Computer Science (May 2020 Expexted Graduation).
         </p>
         <Button buttonName='Get In Touch' />
       </div>
