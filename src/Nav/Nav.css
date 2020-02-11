@@ -9,11 +9,19 @@
   margin-right: 2rem;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 @media only screen and (max-device-width: 750px) {
   .nav-items {
     display: none;
   }
   .resume-button {
     display: none;
+  }
+  .hamburger-menu {
+    display: inline;
+    color: var(--accent-color);
   }
 }
