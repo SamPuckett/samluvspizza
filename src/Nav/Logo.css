@@ -3,7 +3,7 @@
   margin-right: auto;
   height: 75px;
   width: 75px;
-  background-color: rgba(240, 248, 255, 0.9);
+  background-color: var(--main-text-color);
   border-radius: 100px;
 }
 

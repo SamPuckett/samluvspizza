@@ -10,9 +10,9 @@ const Body = () => {
         <h1>Samuel Ruiz</h1>
         <h2>Front-End Web Dev &amp; Lover of Pizza.</h2>
         <p className='body-text'>
-          I’m a software engineer based in Modesto, CA specializing in building
-          (and occasionally designing) exceptional, high-quality websites and
-          applications.
+          I'm a React Developer with a passion for front end web developement.
+          I'm currently a senior at California State University, Stanislaus
+          pursuiting a B.S. in Computer Science (May 2020 Expexted Graduation).
         </p>
         <Button buttonName='Get In Touch' />
       </div>

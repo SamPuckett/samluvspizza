@@ -1,40 +1,46 @@
+:root {
+  --main-color: #252430;
+  --accent-color: #db5817;
+  --main-text-color: #faf9fa;
+  --secondary-text-color: #9ba8b4;
+}
 h1 {
-  color: #fff;
+  color: var(--main-text-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   line-height: 23px;
-  margin-top: 2rem;
-  margin-bottom: 4.5rem;
   letter-spacing: 0.4px;
+  margin-top: 4.5rem;
+  margin-bottom: 3rem;
 }
 h2 {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(var(--main-text-color), 0.75);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   line-height: 23px;
-  margin-top: 4.5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 4.5rem;
 }
 h3 {
-  color: #5ef9d6;
+  color: var(--accent-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-variant: normal;
   font-weight: lighter;
   line-height: 23px;
-  margin-top: 0;
-  margin-bottom: 2rem;
   letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 4.5rem;
 }
 p {
-  color: #fff;
+  color: var(--secondary-text-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -44,18 +50,18 @@ p {
   margin-top: 5rem;
 }
 body {
-  color: #fff;
+  color: var(--secondary-text-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   line-height: 23px;
-  background-color: #08192f;
+  background-color: var(--main-color);
   /* background-image: url("1280.png"); */
 }
 blockquote {
-  color: #fff;
+  color: vvar(--main-text-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-style: normal;
@@ -64,7 +70,7 @@ blockquote {
   line-height: 23px;
 }
 pre {
-  color: #fff;
+  color: var(--main-text-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
   font-style: normal;
@@ -92,4 +98,102 @@ a:hover {
 /* selected link */
 a:active {
   color: inherit;
+}
+
+@media only screen and (max-device-width: 1150px) {
+  h1 {
+    font-size: 4.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+  }
+  h3 {
+    margin-bottom: 4rem;
+  }
+  p {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-device-width: 1000px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  h3 {
+    margin-bottom: 3rem;
+  }
+  p {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 36px;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    line-height: 36px;
+  }
+  h3 {
+    font-size: 24px;
+    margin-bottom: 6vh;
+  }
+  p {
+    margin-top: 6vh;
+  }
 }
