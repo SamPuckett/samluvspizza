@@ -14,7 +14,7 @@ const Body = () => {
           I'm currently a senior at California State University, Stanislaus
           pursuing a B.S. in Computer Science (May 2020 Expexted Graduation).
         </p>
-        <Button buttonName='Get In Touch' />
+        <Button buttonName='Contact Me' />
       </div>
     </>
   );
