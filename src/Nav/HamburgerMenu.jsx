@@ -1,9 +1,12 @@
 import React from "react";
 import "./HamburgerMenu.css";
 
-const HamburgerMenu = ({ fill }) => {
+const HamburgerMenu = ({ fill, isMobileMenuOpen, setMobileMenuOpen }) => {
   return (
     <svg
+      onClick={() => {
+        setMobileMenuOpen(!isMobileMenuOpen);
+      }}
       className='hamburger-menu'
       xmlns='http://www.w3.org/2000/svg'
       width='24pt'

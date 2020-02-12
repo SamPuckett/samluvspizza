@@ -5,13 +5,18 @@ import ResumeButton from "./ResumeButton";
 import HamburgerMenu from "./HamburgerMenu";
 import "./Nav.css";
 
-const Nav = () => {
+const Nav = ({ isMobileMenuOpen, setMobileMenuOpen }) => {
   return (
     <div className='nav'>
       <Logo />
       <NavItems />
       <ResumeButton />
-      <HamburgerMenu width='50px' height='50px' />
+      <HamburgerMenu
+        isMobileMenuOpen={isMobileMenuOpen}
+        setMobileMenuOpen={setMobileMenuOpen}
+        width='50px'
+        height='50px'
+      />
     </div>
   );
 };
