@@ -1,0 +1,26 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-top: 3.3rem;
+  height: 50000px;
+  border: 1px solid red;
+}
+
+.about-me-column-1 {
+  margin-right: auto;
+  width: 66%;
+}
+
+.about-me-column-2 {
+  margin-left: auto;
+  width: 33%;
+}
+
+h1.about-me-header {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  letter-spacing: normal;
+}
