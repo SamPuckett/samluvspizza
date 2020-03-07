@@ -139,7 +139,38 @@ li::before {
     margin-right: 5vw;
     margin-top: 8vh;
   }
+  .aboutme-row-of-columns {
+    display: inline-block;
+  }
+  .aboutme-left-column {
+    display: inline-block;
+    width: 100%;
+  }
+  .aboutme-right-column {
+    display: flex;
+    width: 100%;
+  }
+  .aboutme-list-row {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline;
+  }
   .aboutme-text {
     width: 80vw;
+  }
+  .sam-image {
+    margin-top: 2rem;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 10%;
+  }
+  .sam-image-border {
+    margin: 3%;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 10%;
+    border: 3px solid var(--accent-color);
+  }
+  ul {
+    margin: 0;
   }
 }

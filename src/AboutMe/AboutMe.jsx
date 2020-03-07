@@ -33,7 +33,7 @@ const AboutMe = () => {
                 <li>Node.js</li>
                 <li>HTML</li>
               </ul>
-              <ul className='aboutme-column'>
+              <ul className='aboutme-column aboutme-second-ul'>
                 <li>CSS</li>
                 <li>C#</li>
                 <li>SignalR</li>
