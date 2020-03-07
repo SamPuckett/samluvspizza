@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTransition, animated } from "react-spring";
 import MobileMenu from "./MobileMenu/MobileMenu";
 import Body from "./Body/Body";
+import AboutMe from "./AboutMe/AboutMe";
 import Nav from "./Nav/Nav";
 
 import "./App.css";
@@ -41,6 +42,7 @@ const App = () => {
       {/* <LeftMenu /> */}
       {/* <RightMenu /> */}
       <Body />
+      <AboutMe />
     </div>
   );
 };

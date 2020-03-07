@@ -1,0 +1,145 @@
+.aboutme {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* border: 1px solid red; */
+  margin-left: 9rem;
+  margin-right: 9rem;
+  height: 80vh;
+  margin-bottom: 9rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "•  ";
+  color: var(--accent-color);
+}
+
+.aboutme-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* border: 1px solid green; */
+  width: 30vw;
+}
+
+.aboutme-row-of-columns {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutme-left-column {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* border: 1px solid green; */
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.aboutme-right-column {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* border: 1px solid orange; */
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.aboutme-header {
+  color: rgba(var(--main-text-color), 0.75);
+  letter-spacing: 0.4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.aboutme-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 2rem;
+  line-height: 23px;
+}
+
+.aboutme-list-row {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutme-column {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.sam-image {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 10%;
+}
+
+.sam-image:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(0.8);
+}
+
+.sam-image-border {
+  position: absolute;
+  z-index: -10;
+  margin: 1%;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 10%;
+  border: 3px solid var(--accent-color);
+}
+
+@media only screen and (max-device-width: 1150px) {
+  .aboutme {
+    /* border: 1px solid red; */
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3.3rem;
+  }
+  .aboutme-text {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-device-width: 1000px) {
+  .aboutme {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3.3rem;
+  }
+  .aboutme-text {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  .aboutme {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+  .aboutme-text {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .aboutme {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+  .aboutme-text {
+    width: 80vw;
+  }
+}
