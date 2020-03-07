@@ -45,7 +45,7 @@ const AboutMe = () => {
             <div className='sam-image-border'></div>
             <img
               className='sam-image'
-              src='sam.png'
+              src='https://res.cloudinary.com/dnrbgmcm4/image/upload/c_scale,q_auto:eco,w_600/v1583566519/sam_vcfzsi.png'
               alt='sam at the google hispanic student leadership summit'
             />
           </div>
