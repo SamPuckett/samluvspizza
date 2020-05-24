@@ -1,0 +1,131 @@
+.workexperience {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.buttons-vert-line {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.buttons-column {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-title-text {
+  color: var(--main-text-color);
+  letter-spacing: 0.4px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.company-name-text {
+  color: var(--accent-color);
+  letter-spacing: 0.1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.workexperience-header {
+  color: rgba(var(--main-text-color), 0.75);
+  letter-spacing: 0.4px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.workexperience-text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 10px;
+  line-height: 23px;
+  width: 50vw;
+}
+
+.buttons-row {
+  color: green;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+
+.workexperience-info {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 10px;
+  max-width: 66vw;
+}
+
+.vl {
+  border-left: 2px solid var(--primary-color);
+  height: 48.5px;
+  left: 50%;
+  margin-left: 0.5px;
+}
+
+.buttons-row:hover,
+.buttons-row:focus {
+  border-left: 2px solid white;
+}
+
+li.job-li {
+  letter-spacing: 0.1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-device-width: 1150px) {
+  .workexperience {
+    /* border: 1px solid red; */
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3.3rem;
+  }
+  .workexperience-text {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-device-width: 1000px) {
+  .workexperience {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3.3rem;
+  }
+  .workexperience-text {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  .workexperience {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+  .workexperience-text {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .workexperience {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+}
