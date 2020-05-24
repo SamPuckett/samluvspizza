@@ -24,8 +24,8 @@
   letter-spacing: 0.4px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-top: 40px;
-  margin-bottom: 10px;
-  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -33,7 +33,7 @@
   color: var(--accent-color);
   letter-spacing: 0.1px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -49,7 +49,7 @@
 .workexperience-text {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 5px;
   line-height: 23px;
   width: 50vw;
 }
@@ -62,11 +62,14 @@
 }
 
 .workexperience-info {
+  background-color: rgba(57, 56, 84, 0.3);
+  border: 25px solid rgba(57, 56, 84, 0);
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-self: flex-start;
   margin-left: 10px;
-  max-width: 66vw;
+  max-width: 50vw;
 }
 
 .vl {
@@ -86,6 +89,11 @@ li.job-li {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+ul.job-ul {
+  background-color: rgba(57, 56, 84, 0.5);
+  border-radius: 15px;
 }
 
 @media only screen and (max-device-width: 1150px) {

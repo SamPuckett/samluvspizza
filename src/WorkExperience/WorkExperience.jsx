@@ -6,7 +6,7 @@ const WorkExperience = () => {
     <>
       <div className='workexperience' id='About'>
         <div className='buttons-column'>
-          <button>Job #1</button>
+          <button>1) Novo</button>
           <button>Job #2</button>
           <button>Job #3</button>
           <button>Job #4</button>
@@ -18,23 +18,28 @@ const WorkExperience = () => {
             Experience
           </h3>
           <h4 className='job-title-text'>
-            Job Title <span class='company-name-text'>@ Company Name</span>
+            Front-End React Developer & UI/UX Intern{' '}
+            <span class='company-name-text'>@ Novo Technologies</span>
           </h4>
-          <p className='workexperience-text'>May 2019 - Present</p>
-          <ul>
+          <p className='workexperience-text'>November 2019 - Present</p>
+          <ul class='job-ul'>
             <li class='job-li'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam
-              maecenas sed enim.
+              Improving scalability of a production application tremendously by
+              incorporating the React Front-End library and other modern web
+              technologies.
             </li>
             <li class='job-li'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Accelerating users' turnaround time on average 200% after
+              overhauling UI/UX of a production application.
             </li>
             <li class='job-li'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Scelerisque eleifend donec pretium vulputate.
+              Improving the aesthetic of production applications by
+              incorporating UI/UX design practices.
+            </li>
+            <li class='job-li'>
+              Improving my team's productivity by drafting user stories,
+              flowcharts, personas, tasks, and sprint backlogs for scrum
+              sprints.
             </li>
           </ul>
         </div>
