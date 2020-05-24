@@ -7,7 +7,7 @@
 }
 h1 {
   color: var(--main-text-color);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 5rem;
   font-style: normal;
   font-variant: normal;
@@ -19,7 +19,7 @@ h1 {
 }
 h2 {
   color: rgba(var(--main-text-color), 0.75);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-variant: normal;
@@ -30,7 +30,7 @@ h2 {
 }
 h3 {
   color: var(--accent-color);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-variant: normal;
@@ -42,7 +42,7 @@ h3 {
 }
 p {
   color: var(--secondary-text-color);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -52,7 +52,7 @@ p {
 }
 body {
   color: var(--secondary-text-color);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -64,7 +64,7 @@ body {
 }
 blockquote {
   color: vvar(--main-text-color);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-variant: normal;
@@ -73,7 +73,7 @@ blockquote {
 }
 pre {
   color: var(--main-text-color);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-variant: normal;

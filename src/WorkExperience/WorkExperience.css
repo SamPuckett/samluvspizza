@@ -1,0 +1,174 @@
+.workexperience {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.buttons-vert-line {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.buttons-column {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-title-text {
+  color: var(--main-text-color);
+  letter-spacing: 0.4px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.company-name-text {
+  color: var(--accent-color);
+  letter-spacing: 0.1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.workexperience-header {
+  color: rgba(var(--main-text-color), 0.75);
+  letter-spacing: 0.4px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.workexperience-text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 5px;
+  line-height: 23px;
+  width: 50vw;
+}
+
+.buttons-row {
+  color: green;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+
+.workexperience-info {
+  background-color: rgba(57, 56, 84, 0.3);
+  border: 25px solid rgba(57, 56, 84, 0);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 10px;
+  max-width: 50vw;
+}
+
+.vl {
+  border-left: 2px solid var(--primary-color);
+  height: 48.5px;
+  left: 50%;
+  margin-left: 0.5px;
+}
+
+.buttons-row:hover,
+.buttons-row:focus {
+  border-left: 2px solid white;
+}
+
+li.job-li {
+  display: flex;
+  letter-spacing: 0.1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul.job-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(57, 56, 84, 0.5);
+  border-radius: 15px;
+}
+
+@media only screen and (max-device-width: 1150px) {
+  .buttons-column {
+    display: none;
+  }
+  .job-title-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  ul.job-ul {
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(57, 56, 84, 0.3);
+  }
+  .workexperience {
+    /* border: 1px solid red; */
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3.3rem;
+  }
+  .workexperience-text {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 50vw;
+  }
+  .workexperience-header {
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .workexperience-info {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    max-width: 100vw;
+  }
+}
+
+@media only screen and (max-device-width: 1000px) {
+  .workexperience {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3.3rem;
+  }
+  .workexperience-text {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  .workexperience {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+  .workexperience-text {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .workexperience {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+  .workexperience-info {
+    /* border: 1px solid green; */
+    margin-top: 40vh;
+    margin-bottom: 20vh;
+    max-width: 100vw;
+  }
+}

@@ -1,25 +1,26 @@
-import React, { useState } from "react";
-import { useTransition, animated } from "react-spring";
-import MobileMenu from "./MobileMenu/MobileMenu";
-import Body from "./Body/Body";
-import AboutMe from "./AboutMe/AboutMe";
-import Nav from "./Nav/Nav";
+import React, { useState } from 'react';
+import { useTransition, animated } from 'react-spring';
+import MobileMenu from './MobileMenu/MobileMenu';
+import Body from './Body/Body';
+import AboutMe from './AboutMe/AboutMe';
+import WorkExperience from './WorkExperience/WorkExperience';
+import Nav from './Nav/Nav';
 
-import "./App.css";
+import './App.css';
 
 const App = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const transition = useTransition(isMobileMenuOpen, null, {
     from: {
-      transform: "translate3d(100%,0px,0px)"
+      transform: 'translate3d(100%,0px,0px)',
     },
     enter: {
-      transform: "translate3d(0px,0px,0px)"
+      transform: 'translate3d(0px,0px,0px)',
     },
     leave: {
-      transform: "translate3d(100%,0px,0px)"
-    }
+      transform: 'translate3d(100%,0px,0px)',
+    },
   });
 
   return (
@@ -43,6 +44,7 @@ const App = () => {
       {/* <RightMenu /> */}
       <Body />
       <AboutMe />
+      <WorkExperience />
     </div>
   );
 };
