@@ -1,0 +1,111 @@
+.projects-container {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* border: 1px solid red; */
+  margin-left: 9rem;
+  margin-right: 9rem;
+  height: 80vh;
+  margin-bottom: 9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-header {
+  color: rgba(var(--main-text-color), 0.75);
+  letter-spacing: 0.4px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.projects-text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 5px;
+  line-height: 23px;
+  width: 50vw;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-holder {
+  background-color: white;
+  width: 50vw;
+  height: 28vw;
+}
+
+.image-text-details-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-end;
+}
+
+h4.featured-project-text {
+  margin: 0px !important;
+}
+
+.featured-project-name {
+  margin: 0px !important;
+}
+
+.tech-stack-text {
+  margin: 0px !important;
+}
+
+.link-icons {
+  margin: 0px !important;
+}
+
+.image-text-details {
+  background-color: grey;
+  width: 35vw;
+  height: 15vw;
+  margin-left: -50px;
+}
+
+@media only screen and (max-device-width: 1150px) {
+  .projects-container {
+    /* border: 1px solid red; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3.3rem;
+  }
+}
+
+@media only screen and (max-device-width: 1000px) {
+  .projects-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3.3rem;
+  }
+  .projects-text {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  .projects-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+  .projects-text {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .projects-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vh;
+  }
+}

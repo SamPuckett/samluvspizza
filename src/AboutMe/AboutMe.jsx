@@ -1,5 +1,5 @@
-import React from "react";
-import "./AboutMe.css";
+import React from 'react';
+import './AboutMe.css';
 
 const AboutMe = () => {
   return (
@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div className='aboutme-row-of-columns'>
           <div className='aboutme-left-column'>
             <h3 className='aboutme-header'>
-              <span style={{ color: "var(--accent-color)" }}>01.</span> About Me
+              <span style={{ color: 'var(--accent-color)' }}>01.</span> About Me
             </h3>
             <p className='aboutme-text'>
               Hello! I'm Sam, a Front-End Developer based in Modesto, California
@@ -17,11 +17,21 @@ const AboutMe = () => {
               without having to think.
             </p>
             <p className='aboutme-text'>
-              I am currently attending Stanislaus University, and during my time
-              as a student I was fortunate enough to be able to join Novo
-              Technologies as a Software Developer Intern where I practiced
-              agile development and worked with JavaScript, React and a variety
-              of modern web technologies on a daily basis.
+              I am currently attending{' '}
+              <a className='stan-link' href='https://www.csustan.edu/'>
+                Stanislaus University
+              </a>
+              , and during my time as a student I was fortunate enough to be
+              able to join{' '}
+              <a
+                className='stan-link'
+                href='https://www.linkedin.com/company/novo-technologies-usa//'
+              >
+                Novo Technologies
+              </a>{' '}
+              as a Software Developer Intern where I practiced agile development
+              and worked with JavaScript, React and a variety of modern web
+              technologies on a daily basis.
             </p>
             <p className='aboutme-text'>
               Here are a few technologies I've been working with recently:

@@ -106,6 +106,7 @@ ul.job-ul {
   align-items: center;
   background-color: rgba(57, 56, 84, 0.5);
   border-radius: 15px;
+  padding: 5px 15px 5px 15px;
 }
 
 .job-button {

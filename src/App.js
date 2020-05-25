@@ -4,6 +4,7 @@ import MobileMenu from './MobileMenu/MobileMenu';
 import Body from './Body/Body';
 import AboutMe from './AboutMe/AboutMe';
 import WorkExperience from './WorkExperience/WorkExperience';
+import Projects from './Projects/Projects';
 import Nav from './Nav/Nav';
 
 import './App.css';
@@ -45,6 +46,7 @@ const App = () => {
       <Body />
       <AboutMe />
       <WorkExperience />
+      <Projects />
     </div>
   );
 };
