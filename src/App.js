@@ -6,6 +6,7 @@ import AboutMe from './AboutMe/AboutMe';
 import WorkExperience from './WorkExperience/WorkExperience';
 import Projects from './Projects/Projects';
 import Project2 from './Projects/Project2';
+import Project3 from './Projects/Project3';
 import Nav from './Nav/Nav';
 
 import './App.css';
@@ -49,6 +50,7 @@ const App = () => {
       <WorkExperience />
       <Projects />
       <Project2 />
+      <Project3 />
     </div>
   );
 };

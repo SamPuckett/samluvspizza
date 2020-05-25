@@ -1,4 +1,4 @@
-.project2-container {
+.project3-container {
   background-color: rgba(57, 56, 84, 0.3);
   border: 25px solid rgba(57, 56, 84, 0);
   border-radius: 15px;
@@ -14,7 +14,7 @@
   padding-bottom: 3rem;
 }
 
-.project2-header {
+.project3-header {
   color: rgba(var(--main-text-color), 0.75);
   letter-spacing: 0.4px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -24,7 +24,7 @@
   margin-bottom: 2rem;
 }
 
-.project2-text {
+.project3-text {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
   margin-top: 5px;
@@ -32,9 +32,9 @@
   width: 50vw;
 }
 
-.project2-row {
+.project-row {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   align-self: center;
 }
@@ -56,13 +56,13 @@
   height: 100%;
 }
 
-.image2-holder {
+.image3-holder {
   /* Animation Boilerplater -> */
   position: relative;
   top: 0;
   transition: top ease 0.3s;
   /* <- Animation Boilerplater */
-  /* background-image2: url(../images/quiz.png); */
+  /* background-image3: url(../images/quiz.png); */
   width: 50vw;
   height: 28vw;
   border-radius: 5px;
@@ -71,12 +71,12 @@
   background-color: black;
 }
 
-.image2-holder-quiz {
-  background-image: url(../images/wavedash.png);
+.image3-holder-quiz {
+  background-image: url(../images/github-finder.png);
 }
 
 /* Hover Animation */
-.image2-holder:hover {
+.image3-holder:hover {
   top: -10px;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
@@ -117,27 +117,27 @@
   left: 100%;
 }
 
-.image2-text-details-column {
+.image3-text-details-column {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
-.featured-project2-text {
+.featured-project-text {
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 1rem;
 }
 
-.featured-project2-name {
+.featured-project-name {
   color: var(--main-text-color);
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 1.5rem;
 }
 
-.image2-text-details {
+.image3-text-details {
   /* Animation Boilerplater -> */
   position: relative;
   top: 0;
@@ -148,8 +148,7 @@
   font-weight: 300;
   color: var(--secondary-text-color);
   width: 30vw;
-  /* height: 10vw; */
-  margin-right: -50px;
+  margin-left: -50px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -162,7 +161,7 @@
 }
 
 /* Hover Animation */
-.image2-text-details:hover {
+.image3-text-details:hover {
   top: -10px;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
@@ -182,17 +181,17 @@ a.tech-stack-text:hover {
   color: var(--accent-color);
 }
 
-.project2-link-icons {
+.project-link-icons {
   margin: 0 5px 0 5px;
 }
 
-.project2-link-icons:hover {
+.project-link-icons:hover {
   fill: var(--accent-color);
   /* cursor: pointer; */
 }
 
 @media only screen and (max-device-width: 1150px) {
-  .project2-container {
+  .project3-container {
     /* border: 1px solid red; */
     flex-direction: column;
     justify-content: flex-start;
@@ -204,29 +203,29 @@ a.tech-stack-text:hover {
 }
 
 @media only screen and (max-device-width: 1000px) {
-  .project2-container {
+  .project3-container {
     margin-left: 5rem;
     margin-right: 5rem;
     margin-top: 3.3rem;
   }
-  .project2-text {
+  .project3-text {
     width: 60vw;
   }
 }
 
 @media only screen and (max-device-width: 800px) {
-  .project2-container {
+  .project3-container {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 8vh;
   }
-  .project2-text {
+  .project3-text {
     width: 70vw;
   }
 }
 
 @media only screen and (max-device-width: 450px) {
-  .project2-container {
+  .project3-container {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 8vh;
