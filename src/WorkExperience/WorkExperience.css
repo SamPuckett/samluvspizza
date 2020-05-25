@@ -99,6 +99,11 @@ li.job-li {
 }
 
 ul.job-ul {
+  /* Animation Boilerplater -> */
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  /* <- Animation Boilerplater */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,8 +114,44 @@ ul.job-ul {
   padding: 5px 15px 5px 15px;
 }
 
+/* Hover Animation */
+ul.job-ul:hover {
+  top: -10px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
 .job-button {
   text-align: right;
+  /* Animation Boilerplater -> */
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  /* <- Animation Boilerplater */
+}
+
+/* Hover Animation */
+.job-button:hover {
+  top: -10px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* The styles that get applied whenever a button is active */
+.job-button-active {
+  /* Animation Boilerplater -> */
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  /* <- Animation Boilerplater */
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+/* Hover Animation */
+.job-button-active:hover {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  top: -10px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (max-device-width: 1150px) {
