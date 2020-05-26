@@ -13,6 +13,7 @@ const Projects = () => {
           <a
             href='https://festive-dijkstra-bcd62e.netlify.app/'
             target='_blank'
+            rel='noopener noreferrer'
           >
             <div className='image-holder image-holder-quiz'>
               <div class='layer'>
@@ -45,6 +46,7 @@ const Projects = () => {
               <a
                 href='https://svelte.dev/'
                 target='_blank'
+                rel='noopener noreferrer'
                 className='tech-stack-text'
               >
                 Svelte
@@ -53,6 +55,7 @@ const Projects = () => {
               <a
                 href='https://www.netlify.com/'
                 target='_blank'
+                rel='noopener noreferrer'
                 className='tech-stack-text'
               >
                 Netlify
@@ -62,6 +65,7 @@ const Projects = () => {
               <a
                 href='https://github.com/SamPuckett/levelup-quiz'
                 target='_blank'
+                rel='noopener noreferrer'
               >
                 <svg
                   fill='#FFFFFF'
@@ -77,6 +81,7 @@ const Projects = () => {
               <a
                 href='https://festive-dijkstra-bcd62e.netlify.app/'
                 target='_blank'
+                rel='noopener noreferrer'
               >
                 <svg
                   fill='#FFFFFF'
