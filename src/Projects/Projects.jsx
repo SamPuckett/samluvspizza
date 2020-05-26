@@ -4,11 +4,13 @@ import './Projects.css';
 const Projects = () => {
   return (
     <>
+      <h3 className='projects-header'>
+        <span style={{ color: 'var(--accent-color)', marginLeft: '3rem' }}>
+          03.
+        </span>{' '}
+        Things I've Built
+      </h3>
       <div className='projects-container' id='Experience'>
-        <h3 className='projects-header'>
-          <span style={{ color: 'var(--accent-color)' }}>03.</span> Things I've
-          Built
-        </h3>
         <div className='project-row'>
           <a
             href='https://festive-dijkstra-bcd62e.netlify.app/'

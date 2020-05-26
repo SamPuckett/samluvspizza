@@ -8,6 +8,7 @@ import Projects from './Projects/Projects';
 import Project2 from './Projects/Project2';
 import Project3 from './Projects/Project3';
 import Project4 from './Projects/Project4';
+import MoreProjects from './MoreProjects/MoreProjects';
 import Nav from './Nav/Nav';
 
 import './App.css';
@@ -53,6 +54,7 @@ const App = () => {
       <Project2 />
       <Project3 />
       <Project4 />
+      <MoreProjects />
     </div>
   );
 };
