@@ -11,6 +11,29 @@
   width: 30vw;
 }
 
+a:link.stan-link {
+  color: var(--accent-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited.stan-link {
+  color: var(--accent-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover.stan-link {
+  background-color: transparent;
+  color: rgba(219, 88, 23, 0.5);
+}
+
+a:active.stan-link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 @media only screen and (max-device-width: 1150px) {
   .body {
     /* border: 1px solid red; */

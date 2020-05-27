@@ -4,6 +4,13 @@ import MobileMenu from './MobileMenu/MobileMenu';
 import Body from './Body/Body';
 import AboutMe from './AboutMe/AboutMe';
 import WorkExperience from './WorkExperience/WorkExperience';
+import Projects from './Projects/Projects';
+import Project2 from './Projects/Project2';
+import Project3 from './Projects/Project3';
+import Project4 from './Projects/Project4';
+import MoreProjects from './MoreProjects/MoreProjects';
+import GetInTouch from './GetInTouch/GetInTouch';
+import Footer from './Footer/Footer';
 import Nav from './Nav/Nav';
 
 import './App.css';
@@ -45,6 +52,13 @@ const App = () => {
       <Body />
       <AboutMe />
       <WorkExperience />
+      <Projects />
+      <Project2 />
+      <Project3 />
+      <Project4 />
+      <MoreProjects />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,95 @@
+.more-projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  margin-bottom: 6rem;
+}
+
+h3.more-projects-header {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.more-projects-main-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-projects-first-row {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.more-projects-second-row {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+/* Box Styles */
+
+.more-projects-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* Animation Boilerplater -> */
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  /* <- Animation Boilerplater */
+  margin: 1rem;
+  width: 28vw;
+  height: 18vw;
+  background-color: var(--main-text-color);
+  color: black;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Hover Animation */
+.more-projects-box:hover {
+  top: -10px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box-icon-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box-icon {
+  fill: var(--main-color);
+  stroke: var(--main-color);
+  margin: 0;
+  align-self: center;
+}
+
+.box-icon:hover {
+  fill: var(--accent-color);
+}
+
+h2.box-header {
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+p.box-description {
+  color: grey;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+p.box-tech-stack {
+  color: rgb(129, 107, 151);
+  margin: 0;
+}

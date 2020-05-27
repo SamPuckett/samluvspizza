@@ -1,6 +1,6 @@
-import React from "react";
-import Button from "./Button";
-import "./Body.css";
+import React from 'react';
+import Button from './Button';
+import './Body.css';
 
 const Body = () => {
   return (
@@ -11,7 +11,10 @@ const Body = () => {
         <h2>Front-End Web Dev &amp; Lover of Pizza.</h2>
         <p className='body-text'>
           I'm a React Developer with a passion for front end web developement.
-          I'm currently a senior at California State University, Stanislaus
+          I'm currently a senior at{' '}
+          <a className='stan-link' href='https://www.csustan.edu/'>
+            California State University, Stanislaus
+          </a>{' '}
           pursuing a B.S. in Computer Science (May 2020 Expexted Graduation).
         </p>
         <Button buttonName='Contact Me' />

@@ -50,7 +50,9 @@ const WorkExperience = () => {
       <div className='workexperience' id='Experience'>
         <div className='buttons-column'>
           <button
-            class='job-button'
+            className={
+              'job-button' + (jobCounter === 0 ? ' job-button-active' : '')
+            }
             onClick={() => {
               incrementCounter(0);
             }}
@@ -58,7 +60,9 @@ const WorkExperience = () => {
             {jobObject[0].buttonName}
           </button>
           <button
-            class='job-button'
+            className={
+              'job-button' + (jobCounter === 1 ? ' job-button-active' : '')
+            }
             onClick={() => {
               incrementCounter(1);
             }}
@@ -66,7 +70,9 @@ const WorkExperience = () => {
             {jobObject[1].buttonName}
           </button>
           <button
-            class='job-button'
+            className={
+              'job-button' + (jobCounter === 2 ? ' job-button-active' : '')
+            }
             onClick={() => {
               incrementCounter(2);
             }}
