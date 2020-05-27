@@ -4,7 +4,7 @@ import './Projects.css';
 const Projects = () => {
   return (
     <>
-      <h3 className='projects-header'>
+      <h3 className='projects-header' id='Work'>
         <span style={{ color: 'var(--accent-color)', marginLeft: '3rem' }}>
           03.
         </span>{' '}
