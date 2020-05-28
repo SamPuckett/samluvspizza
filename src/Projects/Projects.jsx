@@ -3,9 +3,12 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <>
+    <div className='project1-main-container'>
       <h3 className='projects-header' id='Work'>
-        <span style={{ color: 'var(--accent-color)', marginLeft: '3rem' }}>
+        <span
+          className='project1-span'
+          style={{ color: 'var(--accent-color)' }}
+        >
           03.
         </span>{' '}
         Things I've Built
@@ -100,7 +103,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

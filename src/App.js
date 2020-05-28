@@ -31,7 +31,7 @@ const App = () => {
   });
 
   return (
-    <div>
+    <div className='main-container-mobile'>
       {transition.map(
         ({ item, key, props }) =>
           item && (

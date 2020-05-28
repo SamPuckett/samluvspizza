@@ -24,3 +24,18 @@
   text-align: center;
   align-self: center;
 }
+
+@media only screen and (max-device-width: 1150px) {
+}
+
+@media only screen and (max-device-width: 1000px) {
+}
+
+@media only screen and (max-device-width: 800px) {
+}
+
+@media only screen and (max-device-width: 450px) {
+  .get-in-touch-container {
+    margin-top: 1rem;
+  }
+}

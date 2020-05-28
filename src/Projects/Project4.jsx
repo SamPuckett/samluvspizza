@@ -4,7 +4,7 @@ import './Project4.css';
 const Project4 = () => {
   return (
     <>
-      <div className='project4-container' id='Experience'>
+      <div className='project4-container'>
         <div className='project4-row'>
           <a
             href='https://www.mercedcounty-covid19.com/'

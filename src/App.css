@@ -43,3 +43,29 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
+
+@media only screen and (max-width: 1150px) {
+  .main-container-mobile {
+    /* border: 1px solid aqua; */
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-container-mobile {
+    /* border: 1px solid blue; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main-container-mobile {
+    /* border: 1px solid crimson; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main-container-mobile {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid darkgreen; */
+  }
+}

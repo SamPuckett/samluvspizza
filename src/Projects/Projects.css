@@ -39,6 +39,10 @@
   align-self: center;
 }
 
+.project1-span {
+  margin-left: 3rem;
+}
+
 .layer {
   position: absolute;
   top: 0;
@@ -191,7 +195,7 @@ a.tech-stack-text:hover {
   /* cursor: pointer; */
 }
 
-@media only screen and (max-device-width: 1150px) {
+@media only screen and (max-width: 1150px) {
   .projects-container {
     /* border: 1px solid red; */
     flex-direction: column;
@@ -203,7 +207,7 @@ a.tech-stack-text:hover {
   }
 }
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .projects-container {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -214,7 +218,7 @@ a.tech-stack-text:hover {
   }
 }
 
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-width: 800px) {
   .projects-container {
     margin-left: 5vw;
     margin-right: 5vw;
@@ -225,10 +229,57 @@ a.tech-stack-text:hover {
   }
 }
 
-@media only screen and (max-device-width: 450px) {
-  .projects-container {
+@media only screen and (max-width: 450px) {
+  .project1-span {
+    margin-left: 0;
+  }
+  .projects-header {
+    /* justify-self: center; */
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+  .project1-main-container {
+    display: flex;
+    flex-direction: column;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 8vh;
+    margin-top: 10rem;
+  }
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 5vw;
+    margin-bottom: 1rem;
+    margin-left: 5vw;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .project-row {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .image-holder {
+    width: 60vw;
+    height: 33.75vw;
+    margin-bottom: 0.5rem;
+    border: 3px solid var(--main-text-color);
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .image-text-details-column {
+    align-items: center;
+  }
+  .featured-project-name {
+    order: -1;
+    margin-top: 0.5rem !important;
+  }
+  .featured-project-text {
+    order: 0;
+  }
+  .image-text-details {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    width: 50vw;
   }
 }

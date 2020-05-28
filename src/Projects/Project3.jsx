@@ -4,7 +4,7 @@ import './Project3.css';
 const Project3 = () => {
   return (
     <>
-      <div className='project3-container' id='Experience'>
+      <div className='project3-container'>
         <div className='project-row'>
           <a
             href='https://github-finder-samuelgruiz.netlify.app/'
