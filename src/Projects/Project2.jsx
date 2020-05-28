@@ -4,7 +4,7 @@ import './Project2.css';
 const Project2 = () => {
   return (
     <>
-      <div className='project2-container' id='Experience'>
+      <div className='project2-container'>
         <div className='project2-row'>
           <a
             href='https://wavedash.store/'

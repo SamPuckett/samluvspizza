@@ -225,9 +225,57 @@ a.tech-stack-text:hover {
 }
 
 @media only screen and (max-device-width: 450px) {
-  .project3-container {
+  .project3-span {
+    margin-left: 0;
+  }
+  .project3-header {
+    /* justify-self: center; */
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+  .project3-main-container {
+    display: flex;
+    flex-direction: column;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 8vh;
+    border: 1px solid yellow;
+    margin-top: 10rem;
+  }
+  .project3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 5vw;
+    margin-bottom: 1rem;
+    margin-left: 5vw;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .project3-row {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .image3-holder {
+    width: 60vw;
+    height: 33.75vw;
+    margin-bottom: 0.5rem;
+    border: 3px solid var(--main-text-color);
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .image3-text-details-column {
+    align-items: center;
+  }
+  .featured-project-name {
+    order: -1;
+    margin-top: 0.5rem !important;
+  }
+  .featured-project-text {
+    order: 0;
+  }
+  .image3-text-details {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    width: 50vw;
   }
 }

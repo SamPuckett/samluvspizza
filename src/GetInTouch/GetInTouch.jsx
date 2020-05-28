@@ -13,7 +13,12 @@ const GetInTouch = () => {
         or just want to say hi, I'll try my best to get back to you!
       </p>
       <button className='button' style={{ margin: '0' }}>
-        <a href='mailto:samuelruiz1994@gmail.com'>Say Hi! 😊</a>
+        <a href='mailto:samuelruiz1994@gmail.com'>
+          Say Hi!{' '}
+          <span role='img' aria-label='Smiling Face with Smiling Eyes Emoji'>
+            😊
+          </span>
+        </a>
       </button>
     </div>
   );

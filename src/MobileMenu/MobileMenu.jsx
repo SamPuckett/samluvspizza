@@ -1,8 +1,8 @@
-import React from "react";
-import HamburgerMenu from "../Nav/HamburgerMenu";
-import NavItem from "../Nav/NavItem";
+import React from 'react';
+import HamburgerMenu from '../Nav/HamburgerMenu';
+import NavItem from '../Nav/NavItem';
 
-import "./MobileMenu.css";
+import './MobileMenu.css';
 
 const MobileMenu = ({ isMobileMenuOpen, setMobileMenuOpen }) => {
   return (
@@ -19,16 +19,32 @@ const MobileMenu = ({ isMobileMenuOpen, setMobileMenuOpen }) => {
       </div>
       <div className='mobile-menu-row-2'>
         <span className='mobile-menu-nav-item'>
-          <NavItem navItemNumber='01.' navItemName='About' />
+          <NavItem
+            navItemNumber='01.'
+            navItemName='About'
+            setMobileMenuOpen={setMobileMenuOpen}
+          />
         </span>
         <span className='mobile-menu-nav-item'>
-          <NavItem navItemNumber='02.' navItemName='Experience' />
+          <NavItem
+            navItemNumber='02.'
+            navItemName='Experience'
+            setMobileMenuOpen={setMobileMenuOpen}
+          />
         </span>
         <span className='mobile-menu-nav-item'>
-          <NavItem navItemNumber='03.' navItemName='Work' />
+          <NavItem
+            navItemNumber='03.'
+            navItemName='Work'
+            setMobileMenuOpen={setMobileMenuOpen}
+          />
         </span>
         <span className='mobile-menu-nav-item'>
-          <NavItem navItemNumber='04.' navItemName='Contact' />
+          <NavItem
+            navItemNumber='04.'
+            navItemName='Contact'
+            setMobileMenuOpen={setMobileMenuOpen}
+          />
         </span>
       </div>
     </>
