@@ -262,9 +262,10 @@ a.tech-stack-text:hover {
   .image4-text-details-column {
     align-items: center;
   }
-  .featured-project-name {
+  .featured-project4-name {
     order: -1;
     margin-top: 0.5rem !important;
+    text-align: center;
   }
   .featured-project-text {
     order: 0;
