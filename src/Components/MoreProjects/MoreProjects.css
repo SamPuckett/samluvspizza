@@ -1,0 +1,142 @@
+.more-projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  margin-bottom: 6rem;
+}
+
+h3.more-projects-header {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.more-projects-main-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-projects-first-row {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.more-projects-second-row {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+/* Box Styles */
+
+.more-projects-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* Animation Boilerplater -> */
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  /* <- Animation Boilerplater */
+  margin: 1rem;
+  width: 28vw;
+  height: 18vw;
+  background-color: var(--main-text-color);
+  color: black;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Hover Animation */
+.more-projects-box:hover {
+  top: -10px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box-icon-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box-icon {
+  fill: var(--main-color);
+  stroke: var(--main-color);
+  margin: 0;
+  align-self: center;
+}
+
+.box-icon:hover {
+  fill: var(--accent-color);
+}
+
+h2.box-header {
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+p.box-description {
+  color: grey;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+p.box-tech-stack {
+  color: rgb(129, 107, 151);
+  margin: 0;
+}
+
+@media only screen and (max-device-width: 1150px) {
+}
+
+@media only screen and (max-device-width: 1000px) {
+}
+
+@media only screen and (max-device-width: 800px) {
+}
+
+@media only screen and (max-device-width: 450px) {
+  .more-projects-container {
+    margin-top: 1rem;
+    margin-right: 5vw;
+    margin-bottom: 1rem;
+    margin-left: 5vw;
+  }
+  .more-projects-header {
+    margin-bottom: 0.5rem !important;
+  }
+  .more-projects-main-column {
+    margin-top: 0.5rem;
+  }
+  .more-projects-first-row {
+    flex-direction: column;
+  }
+  .more-projects-second-row {
+    flex-direction: column;
+  }
+  .more-projects-box {
+    width: 60vw;
+    height: 100%;
+  }
+  svg {
+    height: 18px;
+    width: 18px;
+  }
+  .box-header {
+    font-size: 1rem !important  ;
+  }
+  .box-description {
+    font-size: 0.8rem;
+  }
+  .box-tech-stack {
+    font-size: 0.75rem;
+  }
+}
