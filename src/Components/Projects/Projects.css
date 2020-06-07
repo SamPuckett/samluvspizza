@@ -78,7 +78,7 @@
 }
 
 .image-holder-quiz {
-  background-image: url(../../images/mvgq-1.png);
+  background-image: url(../../images/MVGQ.png);
 }
 
 /* Hover Animation */
@@ -276,7 +276,7 @@ a.tech-stack-text:hover {
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
   }
   .image-holder-quiz {
-    background-image: url(../../images/mvgq-2.png);
+    background-image: url(../../images/MVGQ.png);
   }
   .image-text-details-column {
     align-items: center;
