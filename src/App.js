@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import { useTransition, animated } from 'react-spring';
-import MobileMenu from './MobileMenu/MobileMenu';
-import Body from './Body/Body';
-import AboutMe from './AboutMe/AboutMe';
-import WorkExperience from './WorkExperience/WorkExperience';
-import Projects from './Projects/Projects';
-import Project2 from './Projects/Project2';
-import Project3 from './Projects/Project3';
-import Project4 from './Projects/Project4';
-import MoreProjects from './MoreProjects/MoreProjects';
-import GetInTouch from './GetInTouch/GetInTouch';
-import Footer from './Footer/Footer';
-import Nav from './Nav/Nav';
+import MobileMenu from './Components/MobileMenu/MobileMenu';
+import Body from './Components/Body/Body';
+import AboutMe from './Components/AboutMe/AboutMe';
+import WorkExperience from './Components/WorkExperience/WorkExperience';
+import Projects from './Components/Projects/Projects';
+import Project2 from './Components/Projects/Project2';
+import Project3 from './Components/Projects/Project3';
+import Project4 from './Components/Projects/Project4';
+import MoreProjects from './Components/MoreProjects/MoreProjects';
+import GetInTouch from './Components/GetInTouch/GetInTouch';
+import Footer from './Components/Footer/Footer';
+import Nav from './Components/Nav/Nav';
 
 import './App.css';
 

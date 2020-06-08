@@ -1,0 +1,17 @@
+.resume-button {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  max-width: 150px;
+}
+
+.resume-button:hover {
+  cursor: pointer;
+  color: var(--main-color);
+  background-color: var(--accent-color);
+}
