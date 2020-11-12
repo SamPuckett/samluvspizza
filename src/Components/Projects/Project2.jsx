@@ -2,15 +2,13 @@ import React from 'react';
 import './Project2.css';
 
 const Project2 = () => {
-  
-  const projectURL = 'https://wavedashstore.netlify.app/';
-  
+    
   return (
     <>
       <div className='project2-container'>
         <div className='project2-row'>
           <a
-            href='{projectURL}'
+            href='https://wavedashstore.netlify.app/'
             target='_blank'
             rel='noopener noreferrer'
             className='image2-holder image2-holder-quiz'
@@ -89,7 +87,7 @@ const Project2 = () => {
                 </svg>
               </a>
               <a
-                href='{projectURL}'
+                href='https://wavedashstore.netlify.app/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
