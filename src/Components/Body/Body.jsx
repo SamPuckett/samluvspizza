@@ -11,11 +11,11 @@ const Body = () => {
         <h2>Front-End Web Dev &amp; Lover of Pizza.</h2>
         <p className='body-text'>
           I'm a React Developer with a passion for front end web developement.
-          I'm currently a senior at{' '}
+          I am finished with all my undergrad courses and awaiting graduation at{' '}
           <a className='stan-link' href='https://www.csustan.edu/'>
             California State University, Stanislaus
           </a>{' '}
-          pursuing a B.S. in Computer Science (May 2020 Expexted Graduation).
+          with a B.S. in Computer Science (Fall 2020 Graduation).
         </p>
         <Button buttonName='Contact Me' />
       </div>
