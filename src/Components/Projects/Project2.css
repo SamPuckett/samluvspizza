@@ -2,7 +2,7 @@
   background-color: rgba(57, 56, 84, 0.3);
   border: 25px solid rgba(57, 56, 84, 0);
   border-radius: 15px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* border: 1px solid red; */
   margin-left: 3rem;
   margin-right: 3rem;
@@ -17,7 +17,7 @@
 .project2-header {
   color: rgba(var(--main-text-color), 0.75);
   letter-spacing: 0.4px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   font-size: 2rem;
   font-weight: 500;
@@ -25,7 +25,7 @@
 }
 
 .project2-text {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   margin-top: 5px;
   line-height: 23px;
@@ -72,7 +72,7 @@
 }
 
 .image2-holder-quiz {
-  background-image: url(../../images/wavedash.png);
+  background-image: url(../../images/travelo.png);
 }
 
 /* Hover Animation */
@@ -101,7 +101,7 @@
 }
 .ribbon:before,
 .ribbon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   margin: 0 -1px; /* tweak */
